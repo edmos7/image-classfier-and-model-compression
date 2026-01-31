@@ -16,7 +16,6 @@ The project contains different files, explained below (the files are also ordere
 	- pruned_finetuned_model.pth : new version of pruned_model finetuned on the new architecture
 	- _fbgemm_quantized_model_dict.pth : the model dictionary for the quantized version of best_model, using fbgemm as backend engine
 	- _fbgemm_pruned_finetuned_model_dict.pth : the quantized version of pruned_finetuned_model.
-- demo.ipynb :
 
 The notebooks can run in colab, to do so you should add a this project to your drive along with the dataset(you will have to modify a couple of path string variables), further details are contained in the comments of the notebooks. Alternatively, in order to run everything locally, clone the repo and download the dataset (you will also have to modify a couple of path string variables).
 
