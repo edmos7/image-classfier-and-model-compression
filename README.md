@@ -10,7 +10,7 @@ The project contains different files, explained below (the files are also ordere
 - model.py : A .py file containing model classes used for in the subsequent files for fitting
 - training.ipynb : training and testing of a convolutional model for plant leaf classification
 - compression.ipynb : the trained model is compressed via pruning and quantization, and the results evaluated
----> models folder : contains model checkpoints corresponding to:
+- models folder : contains model checkpoints corresponding to:
 	- best_model.pth : the image classfier checkpoint for the best (lowest val_loss) epoch in training (from training.ipynb)
 	- pruned_model.pth : the globally pruned (50%) model obtained from best_model (from compression.ipynb)
 	- pruned_finetuned_model.pth : new version of pruned_model finetuned on the new architecture
