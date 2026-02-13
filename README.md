@@ -2,6 +2,8 @@
 A PyTorch project for plant disease classification with images, along with model compression through quantization and pruning.
 
 A demo is also available [here](https://huggingface.co/spaces/edmos7/plant-leaf-classifier), where you can upload an image and get predictions from the quantized model.
+The HuggingFace Space may be sleeping and in case, a videoof the demo is available [![here]](assets/demo.mp4).
+
 
 The project contains different files, explained below (the files are also ordered as intended for project inspection)
 
